@@ -1,7 +1,7 @@
 apiVersion: apps/v1
-kind: Deployment
+kind: StatefulSet
 metadata:
-  name: nginx-demo
+  name: demo-sts-v1
   namespace: mydemo
   labels:
     testlabel: value
@@ -20,8 +20,11 @@ spec:
       containers:
       - name: main
         image: nginx:latest
+        command:
+        - sleep
+        args:
+        - "3600"
         env:
         - name: env
-          value: value
-      - name: c2
-        image: nginx:latest
+          value: value`
+  serviceName: ""

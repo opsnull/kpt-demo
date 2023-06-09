@@ -6,7 +6,7 @@ metadata:
     config.kubernetes.io/local-config: "true"
 info:
   site: demo
-  description: demo3
+  description: demo44
   keywords:
   - demo
 pipeline:
