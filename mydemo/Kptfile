@@ -4,9 +4,6 @@ metadata:
   name: mydemo
   annotations:
     config.kubernetes.io/local-config: "true"
-    demo: anno
-  labels:
-    demo: label
 info:
   site: demo
   description: demo3
