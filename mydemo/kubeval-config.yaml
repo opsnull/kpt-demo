@@ -6,4 +6,3 @@ metadata:
     config.kubernetes.io/local-config: "true"
 data:
   ignore_missing_schemas: "true"
-  data: data

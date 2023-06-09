@@ -4,9 +4,12 @@ metadata:
   name: mydemo
   annotations:
     config.kubernetes.io/local-config: "true"
+    demo: anno
+  labels:
+    demo: label
 info:
   site: demo
-  description: demo44
+  description: demo3
   keywords:
   - demo
 pipeline:

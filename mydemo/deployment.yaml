@@ -20,8 +20,3 @@ spec:
       containers:
       - name: main
         image: nginx:latest
-        env:
-        - name: env
-          value: value
-      - name: c2
-        image: nginx:latest
