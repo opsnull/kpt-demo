@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: default
-  namespace: mydemo
-  labels:
-    testlabel: value
-data:
-  testlabel: value
