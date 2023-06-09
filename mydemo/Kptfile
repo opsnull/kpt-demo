@@ -4,20 +4,8 @@ metadata:
   name: mydemo
   annotations:
     config.kubernetes.io/local-config: "true"
-    demo: anno
-  labels:
-    demo: label
 info:
   site: demo
-  description: demo3
+  description: demo
   keywords:
   - demo
-pipeline:
-  validators:
-  - image: gcr.io/kpt-fn/kubeval:v0.3.0
-    configPath: kubeval-config.yaml
-  mutators:
-  - image: gcr.io/kpt-fn/set-namespace:v0.4.1
-    configPath: set-namespace.yaml
-  - image: gcr.io/kpt-fn/set-labels:v0.2.0
-    configPath: config-map.yaml
